@@ -13,7 +13,7 @@ rec {
   };
 
   installPhase = ''
-    mkdir -p $out/usr/share/themes/Lion
-    cp -r * $out/usr/share/themes/Lion/.
+    mkdir -p $out/share/themes/Lion
+    cp -r * $out/share/themes/Lion/.
   '';
 }
