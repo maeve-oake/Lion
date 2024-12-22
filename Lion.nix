@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation rec {
   name = "Lion-theme";
-  version = "1.0";
+  version = "1.1";
 
   src = fetchFromGitHub {
     owner = "maeve-oake";

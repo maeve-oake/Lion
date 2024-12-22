@@ -1,4 +1,4 @@
 #overview {
-  background-image: url("assets/lion-tile.png");  
+  background: radial-gradient(circle at 50% 40%, #ffffff50, transparent), url("assets/lion-tile.png") repeat left top #000;
   background-repeat: repeat;
 }
